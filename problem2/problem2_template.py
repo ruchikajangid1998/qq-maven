@@ -25,18 +25,26 @@
 
 NUM_W = 0
 NUM_F = 0
+int vote
+int num
 
 def findDistribution(num_w, num_f):
     ##################################
     ##          FILL ME IN          ##
     ##################################
-
-    ## IF YOU WISH TO MAKE ANY SPECIFIC LIBRARY IMPORTS ##
-    ## PLEASE PUT THEM IN THE BODY OF THE FUNCTION ##
-    ## LIKE SO: import pdb; pdb.set_trace()
-
+    
     # return a tuple, for details of the return value please refer
     # to the problem statement.
+    for i in range(num_w):
+        for i=0:
+            if vote>= num_w/2:
+                num= i
+            else:
+                i=i+1
+        
+        
+    
+    
     return (2, [-1,2,0])
 
 def ensureNumbers(returnTuple):
